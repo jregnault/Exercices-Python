@@ -1,5 +1,4 @@
 """Exercice sur les variables"""
-import tests
 
 
 def exercice1():
@@ -8,13 +7,18 @@ def exercice1():
     - définit une variable b contenant un calcul dont le résultat est 2.21
     - définit une variable c contentant la somme de a et b
     """
-    # Remplace les None par tes réponses.
-    a = None
-    b = None
-    c = None
+    # Ecrit ton code ici.
 
-    return a, b, c # Utilisé pour les tests, ne pas modifier.
+    return None # Utilisé pour les tests, ne pas modifier.
 
 
-if __name__ == "__main__":
-    tests.runAllTests()
+def exercice2():
+    """2e exercice sur les chaînes de caractères.
+    - écris le code nécessaire pour demander à l'utilisateur
+      son nom, puis l'afficher pour lui dire bonjour, de sorte
+      à produire la sortie suivante :
+
+    Quel est votre nom?: John
+    Bonjour John.
+    """
+    pass # Remplacer par le code.
