@@ -15,3 +15,14 @@ def exercice2(n: int) -> int:
     retourner la réponse.
     """
     return 0
+
+
+def exercice3(n: int) -> int:
+    """Exercice sur les boucles.
+    Ecris le code d'une fonction qui, étant donné n,
+    va doubler sa valeur et retourner la première valeur
+    qui dépasse 1000.
+    Par exemple:
+    exercice3(2) doit retourner 1024
+    """
+    return 0
