@@ -26,3 +26,16 @@ def exercice3(numbers):
     exercice3([1,1,1,2,3]) -> {1, 2, 3}
     """
     pass
+
+
+def exercice4(texte: str):
+    """Exercice sur les dictionnaires.
+    Etant donné un texte, complète la fonction pour
+    qu'elle retourne un dictionnaire contenant chaque
+    caractère présent dans le texte, ainsi que le nombre
+    d'occurences (d'apparition) de chacun.
+
+    Exemple:
+    exercice4("abba") -> {'a': 2, 'b': 2}
+    """
+    pass
