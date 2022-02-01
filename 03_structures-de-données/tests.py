@@ -19,6 +19,12 @@ class TestExercices(unittest.TestCase):
             e.exercice2(10)
         )
 
+    def test_exercice3(self):
+        self.assertEquals(
+            {1, 2, 3, 4, 5},
+            e.exercice3([1, 2, 1, 2, 3, 3, 2, 4, 1, 5])
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

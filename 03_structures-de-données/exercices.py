@@ -15,3 +15,14 @@ def exercice2(n: int):
     exercice2(5) -> [1, 4, 9, 16, 25]
     """
     pass
+
+
+def exercice3(numbers):
+    """Exercice sur les ensembles (sets).
+    Etant donnée une liste de valeurs, écris le code
+    retournant l'ensembles des valeurs distinctes.
+
+    Exemple :
+    exercice3([1,1,1,2,3]) -> {1, 2, 3}
+    """
+    pass
