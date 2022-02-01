@@ -26,5 +26,6 @@ class ExerciceTest(unittest.TestCase):
         self.assertEquals(1, e.exercice4(0))
         self.assertEquals(5040, e.exercice4(7))
 
+
 if __name__ == "__main__":
     unittest.main()
