@@ -6,3 +6,12 @@ def exercice1(prix: int) -> bool:
 	en entrée, et False sinon.
 	"""
 	return False
+
+
+def exercice2(n: int) -> int:
+    """Exercice sur les boucles.
+    On veut connaître la sommes des entiers positifs
+    allant de 0 à n. Ecris le code nécessaire pour
+    retourner la réponse.
+    """
+    return 0
