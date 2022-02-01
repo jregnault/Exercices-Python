@@ -11,7 +11,6 @@ class ExerciceTest(unittest.TestCase):
         self.assertFalse(e.exercice1(150))
         self.assertFalse(e.exercice1(101))
 
-
     def test_exercice2(self):
         self.assertEquals(15, e.exercice2(5))
         self.assertEquals(0, e.exercice2(0))
@@ -21,6 +20,11 @@ class ExerciceTest(unittest.TestCase):
         self.assertEquals(1024, e.exercice3(2))
         self.assertEquals(1536, e.exercice3(3))
 
+    def test_exercice4(self):
+        self.assertEquals(120, e.exercice4(5))
+        self.assertEquals(1, e.exercice4(1))
+        self.assertEquals(1, e.exercice4(0))
+        self.assertEquals(5040, e.exercice4(7))
 
 if __name__ == "__main__":
     unittest.main()

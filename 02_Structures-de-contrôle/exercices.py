@@ -26,3 +26,15 @@ def exercice3(n: int) -> int:
     exercice3(2) doit retourner 1024
     """
     return 0
+
+
+def exercice4(n: int) -> int:
+    """Exercice sur la récursivité.
+    On veut définir la fonction factorielle de manière récursive.
+    La fonction factorielle consiste à calculer le
+    produit des nombres entiers positifs inférieurs à n. Par exemple:
+    factorielle(5) = 5 x 4 x 3 x 2 x 1 = 120.
+    Pour information, factorielle(0) = 1.
+    Complète le corps de la méthode.
+    """
+    return 0
